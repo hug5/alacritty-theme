@@ -1,0 +1,50 @@
+# Colors
+colors:
+  # Default colors
+  primary:
+    #foreground: '#353535'
+    # background: '#D3CAB8'
+      # Darker text works better if no bold
+    #foreground: '#4A4A4A'
+      # This works better with bold
+    background: '#D9D0BD'
+    foreground: '#0A0A0A'
+
+
+  cursor:
+    #text: CellBackground
+    #text: '#C72828'
+      # Refers to the text under the cursor when
+      # cursor happens to be over a text/character
+
+    #cursor: CellForeground
+      # This is the cursor color block
+    # cursor: '#2B2B2B'
+    cursor: '#5C5236'
+
+  # Normal colors
+  normal:
+    black:   '#282828'
+    red:     '#7C3E3C'
+    yellow:  '#716E3B'
+    green:   '#7F7B5F'
+    blue:    '#34557F'
+    magenta: '#682745'
+    cyan:    '#9E2A3E'
+    white:   '#A17316'
+
+  # Bright colors
+  bright:
+    black:   '#282828'
+    red:     '#9C3F3B'
+    yellow:  '#817F5D'
+    #green:   '#385C71'
+    green:   '#4B6472'
+    blue:    '#1C3453'
+    magenta: '#682745'
+    cyan:    '#475659'
+    white:   '#A17316'
+
+# Color Glossary: See README file
+
+

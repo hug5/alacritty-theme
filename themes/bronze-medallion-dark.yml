@@ -1,0 +1,68 @@
+# Colors
+colors:
+  # Default colors
+  primary:
+    # hard contrast: background = '#1d2021'
+    background: '#262626'
+    # soft contrast: background = '#32302f'
+    foreground: '#E17C33'
+
+  cursor:
+    #text: CellBackground
+      # Refers to the text under the cursor
+    #cursor: CellForeground
+      # This is the cursor color block
+    cursor: '#CFCFCF'
+
+  # Normal colors
+  normal:
+    black:   '#201D1D'
+    red:     '#cc241d'
+
+    # green is the footer panel in tmux; make color similar to foreground;
+    #green:   '#626328'  # Original green
+    #green:   '#A26030'
+    green:   '#894416'
+
+    yellow:  '#d79921'
+    blue:    '#609F9F'
+    magenta: '#b16286'
+    cyan:    '#689d6a'
+    white:   '#A89984'
+
+  # Bright colors
+  bright:
+    black:   '#928374'
+    red:     '#fb4934'
+    green:   '#B2B28C'
+    yellow:  '#fabd2f'
+    blue:    '#67A9A3'
+    magenta: '#d3869b'
+    cyan:    '#8ec07c'
+    white:   '#EBDBB2'
+
+
+
+  # Dim colors
+  #
+  # If the dim colors are not set, they will be calculated automatically based
+  # on the `normal` colors.
+  #dim:
+  #  black:   '#DED237'
+  #  red:     '#864343'
+  #  green:   '#777c44'
+  #  yellow:  '#9e824c'
+  #  blue:    '#556a7d'
+  #  magenta: '#75617b'
+  #  cyan:    '#5b7d78'
+  #  white:   '#828482'
+
+  # Indexed Colors
+  #
+  # The indexed colors include all colors from 16 to 256.
+  # When these are not set, they're filled with sensible defaults.
+  #
+  # Example:
+  #   `- { index: 16, color: '#ff00ff' }`
+  #
+  #indexed_colors: []

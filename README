@@ -1,0 +1,119 @@
+# 11/5/22
+# Wow... I've been using this for a year already!!
+# Just a note that the source code will be movd to:
+
+/home/h5/Subl/Coding/Projects/shell-scripts/alacritty-theme
+
+# And the .sh and .yml files in ~/.config/alacritty will be symlinked to the source;
+# Backups will also be keped in the Projects folder as well; 
+
+# ....
+
+# 12/25/21
+# Can get sample theme colors here:
+
+https://github.com/lemnos/theme.sh/tree/master/theme
+https://terminalsplash.com/
+https://github.com/rajasegar/alacritty-themes
+
+- - - - - - - -
+
+# To create the 'alacritty-theme' bash command, I created an alias in .bash_options file, like so:
+alias alacritty-theme='source ~/.config/alacritty/alacritty-theme.sh'
+
+
+
+#------------------------
+### Color Glossary
+#------------------------
+
+# This is an explainor or glossary for colors and how it effects the terminal color:
+
+  normal:
+   black:
+   red:
+   yellow:
+   green:     # tmux footer background
+   blue:
+   magenta:
+   cyan:
+   white:
+
+  bright:
+   black:
+   red:
+   yellow:
+   green:     # "h5@hubm" characters; tmux footer window selection background
+   blue:      # ~/.../alacritty/themes;  Directory path portion;
+   magenta:
+   cyan:
+   white:
+
+
+- - - - - - - -
+
+## More possible configuration settings;
+
+# This was taken from the main alacritty.yml file;
+# Just here for reference;
+
+## Font configuration
+font:
+  # Normal (roman) font face
+
+  normal:
+    # Font family
+    #
+    # Default:
+    #   - (macOS) Menlo
+    #   - (Linux/BSD) monospace
+    #   - (Windows) Consolas
+    #family: monospace
+    #family: Ubuntu Mono
+    #family: Liberation Mono
+    #family: UbuntuMono Nerd Font Mono
+
+    # The `style` can be specified to pick a specific face.
+    # style: Regular
+    # style: Mono
+    style: Bold
+
+  # Bold font face
+  bold:
+    # Font family
+    #
+    # If the bold family is not specified, it will fall back to the
+    # value specified for the normal font.
+    #family: monospace
+
+    # The `style` can be specified to pick a specific face.
+    style: Bold
+
+  # Italic font face
+  italic:
+    # Font family
+    #
+    # If the italic family is not specified, it will fall back to the
+    # value specified for the normal font.
+    #family: monospace
+
+    # The `style` can be specified to pick a specific face.
+    # style: Italic
+    style: Bold
+
+  # Bold italic font face
+  bold_italic:
+    # Font family
+    #
+    # If the bold italic family is not specified, it will fall back to the
+    # value specified for the normal font.
+    #family: monospace
+
+    # The `style` can be specified to pick a specific face.
+    #style: Bold Italic
+    # style: Italic
+    style: Bold
+
+  # Point size
+  #size: 11.0
+  #size: 13
