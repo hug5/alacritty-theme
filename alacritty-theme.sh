@@ -31,7 +31,11 @@ THEME_FOLDER="$HOME/.config/alacritty/themes"
 # MSG="⎻⎻ SELECT THEME: ⎻⎻(q to exit)"
 # MSG="░░░ SELECT THEME (q to exit) ░░░"
 # MSG="█── SELECT THEME (q to exit) ──█"
-MSG="██ SELECT THEME (q to exit) ██"
+#MSG="██ SELECT THEME (q to exit) ██"
+#MSG="〓 SELECT THEME (q to exit) 〓"
+#MSG="【 SELECT THEME (q to exit) 】"
+MSG="[ SELECT THEME (q to exit) ]"
+
 # Approx # of max lines per column
 MROWS=20
 
@@ -79,7 +83,7 @@ COUNT=$(echo "$THEMES_LIST" | wc -w)
   # In this case, not sure it matters which I use?
 
 # Calculate # of columns we should show; about $MROWS per column
-COL=$(($COUNT/$MROWS))
+COL=$(( $COUNT/$MROWS ))
   # arithmetic expansion; doesn't work without ((  ))
 
 # Check COL >= 1
@@ -91,9 +95,9 @@ fi
 # - - - - - - - -
 
 # Have user select a new theme;
-NEW_THEME=$(echo "$THEMES_LIST" \
-    | smenu -m "$MSG" -t "$COL" -n200 -d -s "$OLD_THEME")
-
+NEW_THEME=$(echo -n "$THEMES_LIST" \
+    | smenu -q -m "$MSG" -t "$COL" -n200 -d -s "$OLD_THEME")
+    
 # Explainer:
   # Same as with fzf; get the directory file listing;
   # Pass to grep, which excludes directories; then pass to smenu;
@@ -101,6 +105,9 @@ NEW_THEME=$(echo "$THEMES_LIST" \
     # The default lines is 5; so 200 should be enough?
   # preselect for the $OLD_THEME string which we gave prior;
   # smenu options:
+  # -q
+    # Prevents display of scroll bar, if any;
+    # But in my case, showing -n200; so shouldn't show anyways;
   # -t [columns]
     # This  option sets the tabulation mode and, if a number is specified,
     # attents to set the number of displayed columns to that number.
