@@ -18,11 +18,8 @@ colors:
   normal:
     black:   '#201D1D'
     red:     '#cc241d'
-
-    # green is the footer panel in tmux; make color similar to foreground;
-    #green:   '#626328'  # Original green
-    #green:   '#A26030'
-    green:   '#97973D'
+    # green:   '#787827'        # Footer bg; this was set in tmux
+    green:   '#717128'        # Footer bg; this was set in tmux
     yellow:  '#DACA2E'
     blue:    '#609F9F'
     magenta: '#b16286'
@@ -34,8 +31,8 @@ colors:
     black:   '#646464'
     red:     '#fb4934'
     yellow:  '#F9E628'
-    green:   '#787827'
     blue:    '#D2C437'
+    green:   '#97973D'
     magenta: '#D94DB4'
     cyan:    '#8ec07c'
     white:   '#FFFFFF'

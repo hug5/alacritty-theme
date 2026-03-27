@@ -1,0 +1,52 @@
+# Colors
+colors:
+  # Default colors
+  primary:
+    # hard contrast: background = '#1d2021'
+    background: '#212121'
+    foreground: '#48B9C7'
+    #soft contrast: background = '#32302f'
+    #
+
+  cursor:
+    #text: CellBackground
+      # Refers to the text under the cursor
+    #cursor: CellForeground
+      # This is the cursor color block
+    # cursor: '#E1E1E1'
+    # cursor: '#FB8106'
+    # cursor: '#0084C9'
+    # cursor: '#05D9FE'
+    cursor: '#3FE0D0'
+
+  # Normal colors
+  normal:
+
+    black:   '#282828'
+    red:     '#C94451'
+    yellow:  '#d79921'
+    # green:   '#889D9E'
+    green:   '#9DD94C'
+    # blue:    '#1A7498'
+    blue:    '#48B9C7'
+    magenta: '#E33FD0'
+    cyan:    '#4F8E98'
+    white:   '#A89984'
+
+
+  # Bright colors
+  bright:
+
+    black:   '#928374'
+    red:     '#fb4934'
+    yellow:  '#DCD774'
+    # green:   '#A5B793'
+    green:   '#C6E8B9'
+      # user/path
+    # blue:    '#9CBBC9'
+    blue:    '#D6D6D6'
+    magenta: '#BE5FC9'
+    # cyan:    '#7EB5B2'
+    cyan:    '#ED7865'
+    white:   '#EBDBB2'
+

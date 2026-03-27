@@ -7,13 +7,17 @@ colors:
     #background: '#232323'
     #background: '#262323'
 
-    background: '#1E1E1E'
+    # background: '#1E1E1E'
+    # background: '#262626'
+    background: '#212121'
       # Normal rust-shel bg
     #background: '#191111'
       # dark rust-shel bg
 
     # soft contrast: background = '#32302f'
-    foreground: '#C3492E'
+    # foreground: '#C3492E'
+    # foreground: '#E52C04'
+    foreground: '#D14425'
     #
 
   cursor:
@@ -25,28 +29,38 @@ colors:
 
   # Normal colors
   normal:
-    black:   '#201D1D'
-    red:     '#F25C65'
+    black:   '#444444'
+    # red:     '#F25C65'
+    red:     '#B92932'
     #green:   '#89311E'
     #green:   '#6C776D'
-    green:   '#4B5B4B'
+    green:   '#6A896A'
     yellow:  '#f5971d'
-    blue:    '#86A7B3'
+    # blue:    '#86A7B3'
+    blue:    '#678F9E'
     magenta: '#984BC5'
-    cyan:    '#30727A'
+    # cyan:    '#30727A'
+    cyan:    '#4F848A'
     white:   '#EEEEEE'
     #
   # Bright colors
   bright:
-    black:   '#424242'
+    black:   '#909090'
     red:     '#e83a3f'
-    #green:   '#98A589'
-    green:   '#83BE88'
+
+    # green:   '#83BE88'
+    # green:   '#8BCA5F'
+    green:   '#98A589'
+      # name prompt, executable files
+
     yellow:  '#fee92e'
-    blue:    '#74A2D0'
     #blue:    '#496887'
+    # blue:    '#74A2D0'
+    # blue:    '#C3563E'
+    blue:    '#D16D1B'
+      # Directory names
     magenta: '#BD8CC7'
-    cyan:    '#2A8A9A'
+    cyan:    '#4A9EAC'
     white:   '#d8d8d8'
 
 
