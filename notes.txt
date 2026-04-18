@@ -1,10 +1,10 @@
 # 11/5/22
 # Just a note that the source code will be movd to:
 
-/home/h5/Subl/Coding/Projects/shell-scripts/alacritty-theme
+.../shell-scripts/alacritty-theme
 
-# And the .sh and .yml files in ~/.config/alacritty will be symlinked to the source;
-# Backups will also be keped in the Projects folder as well; 
+# The .sh and .yml files in ~/.config/alacritty will be symlinked to the source;
+# Backups will also be kept in the Projects folder;
 
 # ....
 
@@ -18,6 +18,7 @@ https://github.com/rajasegar/alacritty-themes
 - - - - - - - -
 
 # To create the 'alacritty-theme' bash command, I created an alias in .bash_options file, like so:
+
 alias alacritty-theme='source ~/.config/alacritty/alacritty-theme.sh'
 
 

@@ -27,6 +27,7 @@ PATTERNMATCH='\- ~/.config/alacritty/themes'
 YMLFILE="$HOME/.config/alacritty/alacritty-theme.yml"
 # Directory of theme folder
 THEME_FOLDER="$HOME/.config/alacritty/themes"
+
 # Title Message
 # MSG="⎻⎻ SELECT THEME: ⎻⎻(q to exit)"
 # MSG="░░░ SELECT THEME (q to exit) ░░░"
